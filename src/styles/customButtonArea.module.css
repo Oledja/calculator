@@ -1,0 +1,11 @@
+:root {
+  --grid-cols: 1;
+  --grid-rows: 5;
+}
+
+.customButtonsArea {
+  display: grid;
+  gap: 4px;
+  grid-template-rows: repeat(var(--grid-rows), 1fr);
+  grid-template-columns: repeat(var(--grid-cols), 1fr);
+}

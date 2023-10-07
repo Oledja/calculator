@@ -1,0 +1,48 @@
+.button {
+  width: 50px;
+  height: 50px;
+  background: #333;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1.5rem;
+  cursor: pointer;
+  user-select: none;
+  color: white;
+  border: none;
+}
+
+.button:hover {
+  filter: brightness(120%);
+}
+
+.button:active {
+  filter: brightness(90%);
+}
+
+.customButton {
+  display: grid;
+  align-content: center;
+  background: #715c3f;
+  grid-auto-flow: row dense;
+}
+
+.clearButton {
+  height: 100%;
+  background: #670d0d;
+  grid-area: 1 / 4 / 3 / 4;
+}
+
+.equalButton {
+  height: 100%;
+  background: #174417;
+  grid-area: 3 / 4 / 6 / 4;
+}
+
+.backspaceButton {
+  background: #1e2561;
+}
+
+.zeroButton {
+  width: 100%;
+  grid-area: 5 / 1 / 5 / 3;
+}
